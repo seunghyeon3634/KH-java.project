@@ -22,15 +22,22 @@ public class Exam_Switch {
 		switch (choice) {
 			case 1 :
 				System.out.println("입력메뉴입니다.");
+				break;
 			case 2 :	
 				System.out.println("수정메뉴입니다.");
+				break;
 			case 3 :	
 				System.out.println("조회메뉴입니다.");
+				break;
 			case 4 :	
 				System.out.println("삭제메뉴입니다.");
+				break;
 			case 0 :	
 				System.out.println("종료되었습니다.");
+				break;
+			default : System.out.println("0 ~ 4 사이의 숫자를 입력해주세요.");
 		}
+		// 집에가서 switch ~ case문으로 계산기 만들어보기!!
 		
 		
 		
@@ -52,5 +59,6 @@ public class Exam_Switch {
 	}
 		
 		
-	}
+	}	
+	
 }
