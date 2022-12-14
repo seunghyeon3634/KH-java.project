@@ -24,7 +24,7 @@ public class Exam_BufferedStream {
 				bout.write(readChar);
 			}
 			new Scanner(System.in).nextLine();
-			//bout.flush();
+			bout.flush();
 			bout.close();
 		} catch (FileNotFoundException e) {
 			// TODO Auto-generated catch block
